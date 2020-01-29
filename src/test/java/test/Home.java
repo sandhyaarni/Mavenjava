@@ -17,6 +17,7 @@ public class Home extends Base{
 	public void initialize() throws IOException
 	{
 		driver = initializeDriver();
+		System.out.println("testing push to GitHub");
 		
 	}
 
