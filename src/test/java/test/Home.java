@@ -18,6 +18,7 @@ public class Home extends Base{
 	{
 		driver = initializeDriver();
 		System.out.println("testing push to GitHub");
+		System.out.println("testing pull from GitHub");
 		
 	}
 
