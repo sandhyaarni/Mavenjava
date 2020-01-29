@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="test.Home">
+        <methods>
+          <include name="BasePageNavigation" invocation-numbers="0 1 2"/>
+          <include name="initialize"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.Home -->
+      <class name="test.ValidateLandingPageTitle">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- test.ValidateLandingPageTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

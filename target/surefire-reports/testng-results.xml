@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10853" started-at="2020-01-29T01:40:22Z" finished-at="2020-01-29T01:40:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10853" started-at="2020-01-29T01:40:22Z" finished-at="2020-01-29T01:40:33Z">
+      <class name="test.ValidateLandingPageTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.ValidateLandingPageTitle@2525ff7e]" name="initialize" is-config="true" duration-ms="9891" started-at="2020-01-28T19:40:22Z" finished-at="2020-01-28T19:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="BasePageNavigation()[pri:0, instance:test.ValidateLandingPageTitle@2525ff7e]" name="BasePageNavigation" duration-ms="774" started-at="2020-01-28T19:40:32Z" finished-at="2020-01-28T19:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ValidateLandingPageTitle@2525ff7e]" name="closeBrowser" is-config="true" duration-ms="166" started-at="2020-01-28T19:40:33Z" finished-at="2020-01-28T19:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ValidateLandingPageTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

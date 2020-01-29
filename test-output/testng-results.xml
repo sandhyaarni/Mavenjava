@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34782" started-at="2020-01-29T02:02:46Z" finished-at="2020-01-29T02:03:20Z">
+    <groups>
+    </groups>
+    <test name="ValidatingPagetitle" duration-ms="11695" started-at="2020-01-29T02:02:46Z" finished-at="2020-01-29T02:02:57Z">
+      <class name="test.ValidateLandingPageTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.ValidateLandingPageTitle@34f5090e]" name="initialize" is-config="true" duration-ms="11251" started-at="2020-01-28T20:02:46Z" finished-at="2020-01-28T20:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="BasePageNavigation()[pri:0, instance:test.ValidateLandingPageTitle@34f5090e]" name="BasePageNavigation" duration-ms="216" started-at="2020-01-28T20:02:57Z" finished-at="2020-01-28T20:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ValidateLandingPageTitle@34f5090e]" name="closeBrowser" is-config="true" duration-ms="202" started-at="2020-01-28T20:02:57Z" finished-at="2020-01-28T20:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ValidateLandingPageTitle -->
+    </test> <!-- ValidatingPagetitle -->
+    <test name="ValidatingUserLogin" duration-ms="23055" started-at="2020-01-29T02:02:57Z" finished-at="2020-01-29T02:03:20Z">
+      <class name="test.Home">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.Home@2053d869]" name="initialize" is-config="true" duration-ms="5276" started-at="2020-01-28T20:02:57Z" finished-at="2020-01-28T20:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:test.Home@2053d869]" name="BasePageNavigation" duration-ms="8490" started-at="2020-01-28T20:03:03Z" data-provider="getData" finished-at="2020-01-28T20:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:test.Home@2053d869]" name="BasePageNavigation" duration-ms="4661" started-at="2020-01-28T20:03:11Z" data-provider="getData" finished-at="2020-01-28T20:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:test.Home@2053d869]" name="BasePageNavigation" duration-ms="4320" started-at="2020-01-28T20:03:16Z" data-provider="getData" finished-at="2020-01-28T20:03:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Home@2053d869]" name="closeBrowser" is-config="true" duration-ms="291" started-at="2020-01-28T20:03:20Z" finished-at="2020-01-28T20:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Home -->
+    </test> <!-- ValidatingUserLogin -->
+  </suite> <!-- Suite -->
+</testng-results>
